@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> The Number Game</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="rth6.css">
+    <body>
+        <div class="centerp">
+            <div>
+                <h1>Guess The Number Game</h1>
+            </div>
+        </div>
+        <div id="style1">
+            <div class="center2">
+                <p class = "centerp">Select a range of numbers:</p>
+            </div>
+            <div class="buttons">
+                <div>
+                        <input type="radio" id="number10" name="number">
+                        <label for="number10">10</label>
+                        <input type="radio" id="number100" name="number">
+                        <label for="number100">100</label>
+                        <input type="radio" id="number1000" name="number">
+                        <label for="number1000">1000</label>
+                    <div class="button">
+                        <button id="startbutton" class="button">Start</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="style2">
+            <div class="centery">
+                <div id = "center2">
+                    <label for="question" class="enterNumber">Enter a number between 1 and <span id='num'> </span> </label>
+                </div>
+                <div>
+                    <input type="text" id="guess" name="">
+                    <button id="submitbutton" class="smallButton">Check</button>
+                </div>
+            </div>
+            <div>   
+                <p id="guesses"></p>
+            </div>
+            <div>
+                <p id="result" class="center2"></p>
+            </div>
+            <div class="centery">
+                <button id="restartbutton" class="smallButton">Restart</button>
+            </div>
+        </div>
+        <div id="style3">
+            <div>
+                <p class="center2">Numbers guessed:</p>
+            </div>
+            <ul id="guessesDisplay"></ul> 
+            </div>
+        </div>
+        <div id="style4" class="centerp">
+            <div>
+                <p> Guesses taken : <span id="attempts"></span></p>
+            </div>
+            <div>
+                <p>Guesses left : <span id = "guessesLeft"></span></p>
+            </div>
+        </div>
+        <div id="style5">
+                <p class = "centerp">Congratulations!</p>
+                <div class="centery">
+                    <button id="restartbutton" class="button">Restart</button>
+                </div>
+            </div>
+            <div id="style6" style="display: none;">
+                <p>no more guesses left!.</p>
+            </div>
+            
+
+        <script src="rth6.js"></script>
+    </body>
+</html>

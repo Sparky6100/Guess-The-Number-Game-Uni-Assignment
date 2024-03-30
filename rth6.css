@@ -1,0 +1,169 @@
+
+
+body{
+    background-color:#e6e6fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    text-align: center;
+    font: 2em sans-serif;
+    }
+
+.centerp {
+    font-size: 2em;
+    color: blueviolet;
+    text-align: center;
+}
+
+
+.center2 {
+    font-size: 1.5em;
+    color: blueviolet;
+    text-align: center;
+}
+.enterNumber{
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+}                                                                                            
+.button{
+    background-color: blueviolet;
+    color: white;
+    padding: auto;
+    border-radius: 5px;
+    font-size: 1.5em;
+    cursor: pointer;                                         
+    margin: 5px;
+    border: none;                                                                                     
+}
+
+#style1{
+    background-color: rgb(93, 190, 186);
+    border: 2px solid #734f96;
+    opacity: 0.9;
+    padding: auto;
+    margin: auto;
+    border-radius: 10px;
+    width: 50%;
+    height: 350px;
+}
+
+#style2{
+    display: none;
+     background-color: rgb(93, 190, 186);
+    border: 2px solid #734f96;
+    opacity: 0.9;
+    border-radius: 10px;
+    width: 500px;
+    padding: auto;
+    margin: auto;
+}
+#startbutton{ 
+    background-color: blueviolet;
+    color: white;
+    padding: auto;
+    border-radius: 5px;
+    font-size: 1.5em;
+    cursor: pointer;                                         
+    margin: 5px;
+    border: none; 
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.centery {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column; 
+    align-items: center; 
+}
+.centery > div{
+    text-align: left;
+    margin: 5px 0;
+}
+#style3 {
+    display: none;
+    position: absolute;
+    top: 355px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    height: auto;
+    background-color: #add8e6;
+    border: 2px solid #734f96;
+    border-radius: 10px;
+    padding: auto;
+    margin: auto;
+}
+#style4 {
+    display: none;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    height: auto;
+    background-color: #add8e6;
+    border: 2px solid #734f96;
+    border-radius: 10px;
+    padding: auto;
+    margin: auto;
+}
+#style5 {
+    display: none;
+    position: center;
+    left: 700px;
+    top: 355px;
+    transform: translateX(-50%);
+    width: 500px;
+    height: 300px;
+    background-color: #add8e6;
+    border: 2px solid #734f96;
+    border-radius: 10px;
+    padding: auto;
+    margin: auto;
+}
+#attempts {
+    color: black;
+}
+
+#guessesLeft {
+    color: black;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    top: 500px;
+}
+.tooLow {
+    color:blue;
+}
+.tooHigh {
+    color:red;
+}
+.correct {
+    color:green;
+}
+.smallButton {
+    background-color: blueviolet;
+    color: white;
+    padding: auto;
+    border-radius: 5px;
+    font-size: 1.5em;
+    cursor: pointer;                                         
+    margin: 5px;
+    border: none; 
+}
+.error {
+    color: red;
+}
